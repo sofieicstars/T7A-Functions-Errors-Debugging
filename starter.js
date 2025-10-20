@@ -1,20 +1,23 @@
-// Calculate totals from an array
-
+//
 const numbers = [10, 20, 30, 40];
+ 
 
-
-let total1 = 0;
+let total = 0;
+function calculateSum(){
 for (let num of numbers) {
-  total1 += num;
+  total += num;
 }
-console.log("Total 1:", total1);
-
-let total2 = 0;
-for (let num of numbers) {
-  total2 += num;
+let result = console.log("Total :", total);
+return result;
 }
-console.log("Total 2:", total2);
+ 
 
+
+calculateSum();
 // Calculate the average
+function calculateAverage(){
 let average = total / numbers.length;
-console.log("Average:", average);
+let resultsAverage = console.log("Average:", average);
+return resultsAverage;
+}
+calculateAverage();
