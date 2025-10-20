@@ -15,6 +15,6 @@ for (let num of numbers) {
 }
 console.log("Total 2:", total2);
 
-// Calculate the average of the
+// Calculate the average
 let average = total / numbers.length;
 console.log("Average:", average);
